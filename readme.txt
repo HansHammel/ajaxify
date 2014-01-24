@@ -11,7 +11,7 @@ Tiny Light Weight ajax Plugin that Allows You to Ajaxify your Wordpress theme Qu
 == Description ==
 
 Apply ajax to load your wordpress pages Without refresh.
-Just Put your Main content Id
-Choose your link cloass to ajaxify
+Just Put your Main content Id ( Main div)
+Choose your link class to ajaxify (For example .menu a)
 Choose your Gif loader and your theme will be converted to ajax.
 
