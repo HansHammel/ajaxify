@@ -1,16 +1,17 @@
 === Ajaxify Wordpress ===
-Contributors: Vishal P
+Contributors: vishalpa
 Donate link:
-Tags: Ajax,Ajaxifycontent
+Tags: Ajax,Ajaxifycontent,Wordpress ajax,easy ajax,ajax link,ajax plugin
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 1.0
 
-Tiny light weight ajax that Allows you to Ajaxify your wordpress theme. 
+Tiny Light Weight ajax Plugin that Allows You to Ajaxify your Wordpress theme Quickly and Easily. 
 
 == Description ==
 
-Apply Ajax On Links of Your Choice in Your Wordpress theme.Its light weight and easy.
-Choose your main wrapper id,choose your link to ajaxify,choose gif loader and its done
-
+Apply ajax to load your wordpress pages without refresh.
+Just Put your Main content id
+Choose your link cloass to ajaxify
+CHoose your gif loader and your theme will be converted to ajax.
 
