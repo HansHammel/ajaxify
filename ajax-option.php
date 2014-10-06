@@ -95,7 +95,7 @@
       <p><lable>Choose Gif Loader: </lable><input type="file"  name="file" <?php if(empty($ajx_get_opt['ajx_loader'])):?> required="required" <?php endif;?>/> 
          
         <?php if(!empty($ajx_get_opt['ajx_loader'])):?> 
-         <img src="<?php echo plugins_url().'/Ajaxifier/images/'.$ajx_get_opt['ajx_loader']?>">
+         <img src="<?php echo plugins_url().'/ajaxify/images/'.$ajx_get_opt['ajx_loader']?>">
          <?php endif;?>
        </p>       
          
@@ -139,7 +139,7 @@ function axj_frontend_scripts() {
 	cache: false,
 	      beforeSend: function() { 
 		  jQuery('.loader').show();
-		  jQuery('.loader').html('<img src="<?php echo plugins_url().'/Ajaxifier/images/'.$ajx_get_opt['ajx_loader']?>">'); },
+		  jQuery('.loader').html('<img src="<?php echo plugins_url().'/ajaxify/images/'.$ajx_get_opt['ajx_loader']?>">'); },
 	   }).done(function( result ) {
 	 jQuery('.loader').hide();
 
